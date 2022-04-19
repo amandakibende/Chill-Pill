@@ -1,22 +1,24 @@
+*{
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
 
 .main {
     display: flex;
-    width: 50%;
     border: 5px black solid;
+    margin: 0;
   }
   
   .text {
     flex: 1;
-    margin: 80px;
+    margin: 40px;
     border: 5px red solid;
   }
   
-  .image {
-    margin-right: 20px;
-    border: 5px blue solid;
-  }
+ .img{
+  flex: 1;
+  margin: 40px;
+  border: 5px green solid;
 
-#image {
-  width: 1000px;
- 
-}
+ }
