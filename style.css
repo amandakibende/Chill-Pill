@@ -37,3 +37,17 @@
  p, h2{
   margin: 5px;
 }
+
+ul{
+  list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+li{
+  display: inline;
+  min-width: 5em;
+  margin: 3em;
+  font-size: 20px;
+}
