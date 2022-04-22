@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 *{
   margin: 0;
 	padding: 0;
@@ -7,18 +8,32 @@
 .main {
     display: flex;
     border: 5px black solid;
-    margin: 0;
+    font-family: 'Fugaz One', cursive;
   }
   
   .text {
+
     flex: 1;
     margin: 40px;
     border: 5px red solid;
+    text-align: center;
+    padding-top: 8em;
+    font-size: 20px;
   }
   
  .img{
-  flex: 1;
   margin: 40px;
   border: 5px green solid;
-
  }
+
+ img{
+   width: 80%;
+ }
+ 
+ button{
+   margin: 50px;
+ }
+
+ p, h2{
+  margin: 5px;
+}
