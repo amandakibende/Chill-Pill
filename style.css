@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 *{
   margin: 0;
 	padding: 0;
@@ -7,7 +8,6 @@
 
 .main {
     display: flex;
-    border: 5px black solid;
     font-family: 'Fugaz One', cursive;
   }
   
@@ -15,15 +15,15 @@
 
     flex: 1;
     margin: 40px;
-    border: 5px red solid;
+    font-family: 'Fugaz One', cursive;
     text-align: center;
     padding-top: 8em;
-    font-size: 20px;
+    font-size: 25px;
   }
   
  .img{
   margin: 40px;
-  border: 5px green solid;
+
  }
 
  img{
@@ -37,17 +37,54 @@
  p, h2{
   margin: 5px;
 }
-
+.menu{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+  
+}
 ul{
-  list-style-type: none;
-margin: 0;
-padding: 0;
-text-align: center;
+list-style-type: none;
+margin-left: 100px;
+padding-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+  font-family: 'Fugaz One', cursive;
+  font-size: 30px;
+  margin: 10px;
 }
 
 li{
   display: inline;
   min-width: 5em;
-  margin: 3em;
-  font-size: 20px;
+  margin: 4em;
+  font-size: 30px;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+
+button{
+  color: #fff;
+  background: #000;
+  height: 55px;
+  width: 180px;
+  border-radius: 5px;
+  transform: rotateY(0deg) translateZ(25px);
+}
+
+button:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+button:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
 }
